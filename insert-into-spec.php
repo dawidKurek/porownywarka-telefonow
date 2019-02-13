@@ -1,0 +1,21 @@
+<?php
+$query2="INSERT INTO spec (id_type, display, 
+                                   camera_back_1, camera_back_2, camera_back_3, camera_back_4,
+                                   camera_front_1, camera_front_2, camera_front_3,
+                                   unlock_1, unlock_2, unlock_3,
+                                   chip, ram, waterproof, waterproof_desc, wireless_charging,
+                                   pic1, pic2, pic3,
+                                   memory_1, memory_2, memory_3,
+                                   display_spec_1, display_spec_2, display_spec_3, 
+                                   chip_spec_1, chip_spec_2, chip_spec_3, chip_spec_4,
+                                   size, weight, battery, sim, premiere) 
+                           VALUES ('".$row['id_type']."', '$display', 
+                                   '$camera_back_1', '$camera_back_2', '$camera_back_3', '$camera_back_4',
+                                   '$camera_front_1', '$camera_front_2', '$camera_front_3',
+                                   '$unlock_1', '$unlock_2', '$unlock_3',
+                                   '$chip', '$ram', '$waterproof', '$waterproof_desc', '$wireless_charging',
+                                   '$pic1_name', '$pic2_name', '$pic3_name',
+                                   '$memory_1', '$memory_2', '$memory_3',
+                                   '$display_spec_1', '$display_spec_2', '$display_spec_3',
+                                   '$chip_spec_1', '$chip_spec_2', '$chip_spec_3', '$chip_spec_4', 
+                                   '$size', '$weight', '$battery', '$sim', '$premiere')";
